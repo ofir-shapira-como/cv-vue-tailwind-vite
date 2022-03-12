@@ -14,8 +14,8 @@ const hasGradientBackground = ref(true)
 </script>
 
 <template>
-  <div :class="hasGradientBackground ? 'bg-gradient-to-b from-cyan-200 to-blue-500' : 'bg-white'" style="height: 100vh"
-       class="absolute">
+  <div :class="hasGradientBackground ? 'bg-gradient-to-b from-cyan-200 to-blue-500' : 'bg-white'"
+       class="absolute h-screen w-screen">
     <div class="right-0 absolute pt-4 pr-4">
       <Switch
           v-model="hasGradientBackground"
@@ -33,7 +33,7 @@ const hasGradientBackground = ref(true)
         name="Ofir Shapira"
         title="Software Developer"
         education="BSc, Computer Engineering, The Hebrew University of Jerusalem"
-        class="mt-12"
+        class="mt-12 max-w-screen-lg"
     >
       <template v-slot:content>
         Hi, I am Ofir, I am a Software Developer from Israel, I created this basic profile page because I wanted to play
