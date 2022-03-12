@@ -11,14 +11,16 @@ import Link from "./components/Link.vue";
       name="Ofir Shapira"
       title="Software Developer"
       education="BSc, Computer Engineering, The Hebrew University of Jerusalem"
-      class="mx-20 mx-auto"
+      class="mt-12"
   >
     <template v-slot:content>
-      Hi, I am Ofir, I created this basic profile page because I wanted to play around with
-      <Link text="vite" url="https://vitejs.dev/">Vite</Link>,
+      Hi, I am Ofir, I am a Software Developer from Israel, I created this basic profile page because I wanted to play around with
+      <Link url="https://vitejs.dev/">Vite</Link>,
       <Link url="https://vuejs.org/">Vue 3 (TS)</Link>
       and
       <Link url="https://tailwindcss.com/">Tailwind</Link>
+      <br>
+      The source code is available <Link url="https://github.com/ofir-shapira-como/cv-vue-tailwind-vite">here</Link>
     </template>
   </Profile>
 </template>
@@ -29,8 +31,5 @@ import Link from "./components/Link.vue";
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
