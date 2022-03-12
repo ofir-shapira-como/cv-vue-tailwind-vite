@@ -11,6 +11,7 @@ import Link from "./components/Link.vue";
       name="Ofir Shapira"
       title="Software Developer"
       education="BSc, Computer Engineering, The Hebrew University of Jerusalem"
+      class="mx-20 mx-auto"
   >
     <template v-slot:content>
       Hi, I am Ofir, I created this basic profile page because I wanted to play around with
